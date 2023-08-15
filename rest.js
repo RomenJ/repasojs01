@@ -22,13 +22,8 @@ console.log('Propiedad a del objt',a);
 console.log('Propiedad d del objt',b);
 console.log('Propiedad hasta el final del objt',obj);
 const arrX=[1,2,3,4,5,6,7]
-
 const[x1,x2, ...r]=arrX
-
 console.log (x1,x2,r);
-
 const useState= ()=> ['valor, ()=>{}']
-
 const [valor, setValor]=useState()
-
 console.log (valor, setValor)
