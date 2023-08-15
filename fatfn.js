@@ -8,23 +8,16 @@
 
             return "Chanchita super feliz"
         }
-        console.log (fatFn())
-
+         console.log (fatFn())
 
         function fn(){
             this.prop='propiedadX'
-
             }
-            
             console.log (this);
-
             //Las Arror funtion tinen return implícito (quitando las llaves)
             const fatFn2=()=>2
             //imprime 2 
             console.log('La salida de factFn2 es '+fatFn2());
-
             const fatFn3=()=>3
-
-
             console.log('La salida de factFn3 es'+fatFn3());
             
