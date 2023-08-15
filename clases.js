@@ -2,14 +2,9 @@
 //Ejemplos de la sesión
 
 //expresión de clase tipo STANDART:
-
 /*
 const Rectangulo=class R{
-
-
-
 }*/
-
 
 //Declaración de clase con class (No hoisting): 
 
@@ -17,13 +12,13 @@ class Rectangulo2{
 
 }
 
-//Una de las diferencias 
+//Una de las diferencias estriba en que 
 //los objetos de la clase function
 //puede ser refernciados antes de ser declarados
 //ya que la declaración de estos objetos se lee al principio
 //esto se llama Hoisting
 //Esto quiere decir que que var y function se leen al ppo.
-//Véase:
+//Véase llamado a la función:
 Cuadrado();
 //
 
@@ -33,7 +28,7 @@ function Cuadrado(){
 
 console.log (Rectangulo2,Cuadrado);
 
-//expresión de clase tipo anónima:
+//expresión de clase tipo anónima en una constante:
 
 const Rectangulo=class{
 
@@ -42,8 +37,6 @@ const Rectangulo=class{
 
 
 const r=new Rectangulo();
-
-
 //Ejemplos adicionales freestyle
 
 class NaveEspacial{
@@ -76,23 +69,17 @@ class Nave{
     n1=new Nave();
     n1;
 
-
-
     class Barco{
         //Método constructor que se ejecuta siempre que se instancia 
         //un objeto de la clase
         //Los valores de asignación en los parámetros son los valores por defecto 
       
-            constructor(estado ='Navegando'){
-                this.estado=estado
-              
+        constructor(estado ='Navegando'){
+                this.estado=estado  
             }
          navegar(){
             console.log(`El estado del objeto clase barco es... ${this.estado}` );
-
         }
-
-
         }
         
         n2=new Barco();
